@@ -4,6 +4,11 @@ getgenv().Settings = {
         Active = false,
         Items = {
             --// Example Settings, everything is editable.
+            SearchTerminal = {
+                [[ Terminal doesn't support custom keywords like "All Huges" or "AllTiers". ]],
+                ["Instant Luck Potion 4"] = {Class = "Consumable", Price = "50%"},
+            },
+    
             ["All Rarity: Legendary"] = {Class = "Pet", Price = "0%"}, --// Normal RAP.
             ["All Rarity: Exotic"] = {Class = "Pet", Price = "20%"}, --// 20% below or less of RAP.
             ["All Rarity: Mythical"] = {Class = "Pet", Price = "+20%"}, --// 20% above or less of RAP.
@@ -15,6 +20,8 @@ getgenv().Settings = {
             ["Switch Servers"] = true,
             ["Teleport Delay (s)"] = 3,
             ["Save # Last Joined Servers"] = 10,
+            ["Constant Terminal Searching"] = true,
+            ["Terminal Searches per Item"] = 3,
         },
         Webhook = {
             ["URL"] = "",
