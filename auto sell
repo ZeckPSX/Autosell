@@ -48,8 +48,8 @@ getgenv().Settings = {
             ["Instant Luck Potion 4"] = {Class = "Consumable", Price = "20%", AllTiers = true},
             ["Crystal Key"] = {Class = "Misc", Price = "30%", AllTiers = true},
             ["Crystal Key Lower Half"] = {Class = "Misc", Price = "45%", AllTiers = true},
-            ["Jelly God Potion 1"] = {Class = "Consumable", Price = "-20%"},
             ["God Potion 1"] = {Class = "Consumable", Price = "10%"}
+            ["Fishing Bait 5"] = {Class = "Consumable", Price = "30%"},
         },
         Serverhop = {
             ["Switch Servers"] = true,
