@@ -1,0 +1,74 @@
+script_key = "hrtDTLAgxOVQKtucCaSYxPvVHkUJrCLd"
+getgenv().Settings = {
+    Sniper = {
+        Active = false,
+        Items = {
+            --// Example Settings, everything is editable.
+            ["All Rarity: Legendary"] = {Class = "Pet", Price = "0%"}, --// Normal RAP.
+            ["All Rarity: Exotic"] = {Class = "Pet", Price = "20%"}, --// 20% below or less of RAP.
+            ["All Rarity: Mythical"] = {Class = "Pet", Price = "+20%"}, --// 20% above or less of RAP.
+            ["RAP Above: 500k"] = {Class = "Pet", Price = "15%", UseCosmicValues = true}, --// 15% below Cosmic Value price & RAP Above 500k
+            ["Difficulty Above: 5m"] = {Class = "Pet", Price = "+50%", UseCosmicValues = true}, --// 50% above Cosmic Value price & Difficulty Above 5m
+            ["Kitsune Fox"] = {Class = "Pet", Price = 15000, InventoryLimit = 52}, --// Normal Listing Price.
+        },
+        Serverhop = {
+            ["Switch Servers"] = true,
+            ["Teleport Delay (s)"] = 3,
+            ["Save # Last Joined Servers"] = 10,
+        },
+        Webhook = {
+            ["URL"] = "",
+            ["Send Embeds"] = true,
+            ["Remove Username"] = true,
+            ["Global Snipes"] = true,
+        },
+        StopParams = {
+            ["Limits Reached"] = false,
+            ["Diamonds Hit: 250k"] = false,
+            ["60 Minutes"] = false,
+            ["Switch To Selling"] = false,
+        },
+    },
+    Seller = {
+        Active = true,
+        Items = {
+            ["All Rarity: Exclusive"] = {Class = "Pet", Price = "-1%"}, --// 20% above or less of RAP.
+            ["All Rarity: Celestial"] = {Class = "Pet", Price = "-7%"}, --// Normal RAP.
+            ["All Rarity: Divine"] = {Class = "Pet", Price = "-7%"}, --// Normal RAP.
+            ["All Rarity: Superior"] = {Class = "Pet", Price = "-7%"}, --// Normal RAP.
+            ["All Rarity: Secret"] = {Class = "Pet", Price = "-5%"}, --// Normal RAP.
+            ["All Rarity: Exotic"] = {Class = "Pet", Price = "-5%"}, --// 20% above or less of RAP.
+            ["Instant Luck Potion 4"] = {Class = "Consumable", Price = "20%", AllTiers = true},
+            ["Crystal Key"] = {Class = "Misc", Price = "30%", AllTiers = true},
+            ["Crystal Key Lower Half"] = {Class = "Misc", Price = "45%", AllTiers = true},
+            ["Jelly God Potion 1"] = {Class = "Consumable", Price = "-20%"},
+            ["God Potion 1"] = {Class = "Consumable", Price = "10%"}
+            ["Fishing Bait 5"] = {Class = "Consumable", Price = "30%"},
+            ["Fishing Bait 4"] = {Class = "Consumable", Price = "35%"},
+        },
+        Serverhop = {
+            ["Switch Servers"] = true,
+            ["Teleport Delay (m)"] = 10,
+        },
+        Webhook = {
+            ["URL"] = "https://discord.com/api/webhooks/1245580306673696780/sXehTMAve14_2md3_9CUgAxPA13_nzzDiklSfLsxouF2tgw-FWcSLP7TKQinwn6Rcnhp",
+            ["Send Embeds"] = true,
+            ["Remove Username"] = false,
+        },
+        StopParams = {
+            ["Item Runout"] = false,
+            ["Diamonds Hit: 1b"] = false,
+            ["60 Minutes"] = false,
+            ["Switch To Sniping"] = false,
+        },
+        Other = {
+            ["Auto Accept Mail"] = true,
+            ["Diamonds Hit: 1b Sendout"] = "jason061gt",
+            ["Always Try Adding Listings"] = true,
+            ["Never Join Friendslist"] = false,
+        },
+    },
+
+    [[ Thank you for using System Exodus <3! ]]
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/717430e3bbde3530feb824de729fcc90.lua"))()
