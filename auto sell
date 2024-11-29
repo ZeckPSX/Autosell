@@ -47,7 +47,7 @@ getgenv().Settings = {
             ["All Rarity: Exotic"] = {Class = "Pet", Price = "-5%"}, --// 20% above or less of RAP.
             ["Instant Luck Potion 4"] = {Class = "Consumable", Price = "10%", AllTiers = true},
             ["Crystal Key"] = {Class = "Misc", Price = "5%", AllTiers = true},
-            ["Crystal Key Lower Half"] = {Class = "Misc", Price = "10%", AllTiers = true},
+            ["Crystal Key Lower Half"] = {Class = "Misc", Price = "15%", AllTiers = true},
             ["God Potion 1"] = {Class = "Consumable", Price = "10%"},
             ["Fishing Bait 5"] = {Class = "Consumable", Price = "20%"},
             ["Fishing Bait 4"] = {Class = "Consumable", Price = "20%"},
