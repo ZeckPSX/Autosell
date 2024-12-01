@@ -39,6 +39,12 @@ getgenv().Settings = {
     Seller = {
         Active = true,
         Items = {
+            ["All Rarity: Exclusive"] = {Class = "Pet", Price = "-1%"}, --// 20% above or less of RAP.
+            ["All Rarity: Celestial"] = {Class = "Pet", Price = "-7%"}, --// Normal RAP.
+            ["All Rarity: Divine"] = {Class = "Pet", Price = "-7%"}, --// Normal RAP.
+            ["All Rarity: Superior"] = {Class = "Pet", Price = "-7%"}, --// Normal RAP.
+            ["All Rarity: Secret"] = {Class = "Pet", Price = "-5%"}, --// Normal RAP.
+            ["All Rarity: Exotic"] = {Class = "Pet", Price = "-5%"}, --// 20% above or less of RAP.
             ["Instant Luck Potion 4"] = {Class = "Consumable", Price = "20%", AllTiers = true},
             ["Crystal Key"] = {Class = "Misc", Price = "15%", AllTiers = true},
             ["Crystal Key Upper Half"] = {Class = "Misc", Price = "100%"},
