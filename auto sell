@@ -41,7 +41,7 @@ getgenv().Settings = {
         Items = {
             ["Instant Luck Potion 4"] = {Class = "Consumable", Price = "20%", AllTiers = true},
             ["Crystal Key"] = {Class = "Misc", Price = "15%", AllTiers = true},
-            ["Crystal Key Upper Half"] = {Class = "Misc", Price = "110%"},
+            ["Crystal Key Upper Half"] = {Class = "Misc", Price = "100%"},
             ["Crystal Key Lower Half"] = {Class = "Misc", Price = "70%", AllTiers = true},
             ["God Potion 1"] = {Class = "Consumable", Price = "10%"},
             ["Jelly God Potion 1"] = {Class = "Consumable", Price = "15%"},
